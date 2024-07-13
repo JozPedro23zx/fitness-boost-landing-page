@@ -1,11 +1,8 @@
-import { Inter } from "next/font/google";
-import { Header } from "./Header";
-import { Banner } from "./Banner";
-import { Products } from "./Products";
-import { Newsletter } from "./Newsletter";
-import { Footer } from "./Footer";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Header } from "./components/Header";
+import { Banner } from "./components/Banner";
+import { Products } from "./components/Products";
+import { Newsletter } from "./components/Newsletter";
+import { Footer } from "./components/Footer";
 
 export default function Home() {
 

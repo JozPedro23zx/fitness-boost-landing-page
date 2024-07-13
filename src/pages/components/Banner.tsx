@@ -1,7 +1,8 @@
 
 export function Banner() {
   return (
-    <section className="flex items-center" style={{ backgroundImage: "url('/images/background.jpg')", backgroundSize: "100vw 100vh", backgroundPosition: "center", backgroundRepeat: "no-repeat", height: "100vh", width: "100vw" }}>
+    <section className="flex items-center bg-cover bg-center h-screen w-full" 
+    style={{ backgroundImage: "url('/images/background.jpeg')" }}>
       <div className="container mx-auto px-4 md:px-6 text-left">
         <h1 className="text-white text-4xl md:text-6xl font-bold">IMPROVE <br /> YOUR RESULTS</h1>
         <p className="text-white text-lg mt-2 md:mt-4">The best supplements with discounts to guarantee your physical development</p>
